@@ -2,7 +2,7 @@
 import pymysql
 from tkinter import messagebox
 try:
-    con=pymysql.connect(host='localhost',user='root',password='Surajit@123')
+    con=pymysql.connect(host='localhost',user='root',password='pw')
     mycursor=con.cursor()
 except:
     messagebox.showerror('Error','Database connectivity error. Try again.')
