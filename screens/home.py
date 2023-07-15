@@ -46,7 +46,7 @@ selected_food_name='No movie selected'
 def connectDB():
     try:
         global con
-        con=pymysql.connect(host='localhost',user='root',password='Surajit@123',database='softwareProject')
+        con=pymysql.connect(host='localhost',user='root',password='password',database='softwareProject')
         global mycursor
         mycursor=con.cursor()
     except:
