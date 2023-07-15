@@ -6,7 +6,7 @@ from reportlab.pdfgen import canvas
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='Surajit@123',
+    password='pw',
     database='softwareproject'
 )
 
