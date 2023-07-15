@@ -7,7 +7,7 @@ sys.path.insert(1,"D:\\projectX\\screens")
 from AdminPg import AdminPg
 from NewRegister import reg
 import mysql.connector
-mydb = mysql.connector.connect(host='localhost',user='root',password='Surajit@123',database="softwareProject")
+mydb = mysql.connector.connect(host='localhost',user='root',password='password',database="softwareProject")
 
 
 
