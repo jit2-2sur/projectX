@@ -29,7 +29,7 @@ def clear():
 def connectDB():
     try:
         global con
-        con=pymysql.connect(host='localhost',user='root',password='Surajit@123')
+        con=pymysql.connect(host='localhost',user='root',password='password')
         global mycursor
         mycursor=con.cursor()
     except:
