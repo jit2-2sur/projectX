@@ -43,7 +43,7 @@ seat_list=[]
 def connectDB():
     try:
         global con
-        con=pymysql.connect(host='localhost',user='root',password='Surajit@123',database='softwareProject')
+        con=pymysql.connect(host='localhost',user='root',password='pw',database='softwareProject')
         global mycursor
         mycursor=con.cursor()
     except:
