@@ -5,7 +5,7 @@ import re
 import mysql.connector
 import pymysql
 
-mydb = mysql.connector.connect(host='localhost',user='root',password='Surajit@123',database="softwareProject")
+mydb = mysql.connector.connect(host='localhost',user='root',password='password',database="softwareProject")
 
 class AdminPg:
     def __init__(self,root):
