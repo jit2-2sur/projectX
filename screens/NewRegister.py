@@ -5,7 +5,7 @@ from tkinter import messagebox
 import sys
 sys.path.insert(1,"D:\\projectX\\screens")  #D:\projectX\admin
 
-mydb = mysql.connector.connect(host='localhost',user='root',password='Surajit@123',database="softwareProject")
+mydb = mysql.connector.connect(host='localhost',user='root',password='password',database="softwareProject")
 
 
 class reg:
