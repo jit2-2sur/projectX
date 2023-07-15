@@ -18,7 +18,7 @@ path4=r"d:\projectX\assets\icons\return.png"
 def connectDB():
     try:
         global con
-        con=pymysql.connect(host='localhost',user='root',password='Surajit@123')
+        con=pymysql.connect(host='localhost',user='root',password='lkjhg')
         global mycursor
         mycursor=con.cursor()
     except:
